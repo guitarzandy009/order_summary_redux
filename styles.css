@@ -14,19 +14,19 @@
 }
 
 :root {
-  --pale-blue: hsl(225, 100%, 94%);
-  --very-pale-blue: hsl(225, 100%, 98%);
-  --desaturated-blue: hsl(224, 23%, 55%);
-  --dark-blue: hsl(223, 47%, 23%);
-  --bright-blue: hsl(245, 75%, 52%);
+  --peach: hsl(18, 60%, 82%);
+  --tan: hsl(50, 35%, 90%);
+  --grey: hsl(337, 5%. 71%);
+  --dark-blue: hsl(211, 71%, 24%);
+  --deep-red: hsl(340, 49%, 45%);
   --bright-blue-hover: hsl(244, 83%, 68%);
 }
 
 body {
-  background-image: url(./images/pattern-background-desktop.svg);
+  background-image: url(./images/wave-haikei.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--pale-blue);
+  background-color: var(--peach);
   font-size: 16px;
   font-family: "Red Hat Display", sans-serif;
 }
@@ -34,7 +34,7 @@ body {
 .card {
   width: 450px;
   background-color: white;
-  color: var(--desaturated-blue);
+  color: var(--grey);
   border-radius: 20px;
   margin: 50px auto;
   overflow: hidden;
@@ -73,7 +73,7 @@ body {
 
 .plan-container {
   font-size: 16px;
-  background-color: var(--very-pale-blue);
+  background-color: var(--tan);
   padding: 25px;
   border-radius: 12px;
   display: flex;
@@ -83,7 +83,7 @@ body {
 }
 
 .plan-container a {
-  color: var(--bright-blue);
+  color: var(--deep-red);
   font-size: 13px;
   font-weight: 700;
 }
@@ -109,7 +109,7 @@ button {
 
 .cancel-button {
   background-color: white;
-  color: var(--desaturated-blue);
+  color: var(--grey);
   border: none;
   margin-top: 22px;
 }
@@ -119,7 +119,7 @@ button {
 }
 
 .proceed-button {
-  background-color: var(--bright-blue);
+  background-color: var(--deep-red);
   padding: 1rem 0;
   color: white;
   box-shadow: 0 20px 30px -8px rgb(197 189 245);
